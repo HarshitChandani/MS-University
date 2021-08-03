@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+   <head>
+      <title>Form</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" crossorigin="anonymous">
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" crossorigin="anonymous"></script>
+      <style>
+         .form-check-input{
+            width:20px;
+            height:20px;
+         }
+      </style>
+   </head>
+   <body>
+      <div class="container">
+         <div class="row w-75 m-0 m-auto">
+            <div class="d-flex flex-wrap m-5 p-3" style="border:1px solid white;box-shadow: 0em 0em 2px 3px #dddddd">
+                  <div class="col-lg-4">
+                     <label for="first-name" class="font-weight-bold ">First Name:</label>
+                     <input type="text" class="form-control" id="first-name" aria-describedby="firstName"/>
+                  </div>
+                  <div class="col-lg-4">
+                     <label for="middle-name" class="font-weight-bold">Middle Name:</label>
+                     <input type="text" class="form-control" id="middle-name" aria-describedby="middleName"/>
+                  </div>
+                  <div class="col-lg-4">
+                     <label for="last-name" class="font-weight-bold">Last Name:</label>
+                     <input type="text" class="form-control" aria-describedby="middleName id="last-name/>
+                  </div>
+               
+
+               <div class="col-12 form-inline p-3 m-2">
+                  <label for="gender" class="font-weight-bold">Gender:</label>
+                  <div class="form-check mx-3 form-check-inline">
+                     <input class="form-check-input" type="radio" name="Gender" value="Male" id="Male"/>
+                     <label class="font-weight-bold">Male</label>
+                  </div>
+                  <div class="form-check form-check-inline mx-3">
+                     <input class="form-check-input" type="radio" name="Gender" value="Female" id="Female"/>
+                     <label class="font-weight-bold">Female</label>
+                  </div>
+                  <div class="form-check form-check-inline mx-3">
+                     <input class="form-check-input" type="radio" name="Gender" value="other" id="other"/>
+                     <label class="font-weight-bold">Other</label>
+                  </div>
+               </div>
+               <div class="col-6 my-2">
+                  <label for="email" class="font-weight-bold">Email:</label>
+                  <input type="email" id="email" class="form-control" name="email"/>
+               </div>
+               <div class="col-6 my-2">
+                  <label for="phone-no" class="font-weight-bold">Phone no:</label>
+                  <input type="text" class="form-control" id="phone-no" minlength="10" maxlength="10" pattern="^[9|8|7|6|5]{1}+?=[0-9]{9}"/>
+               </div>
+
+               <div class="col-12 form-inline p-3 my-2">
+                  <label class="font-weight-bold">Hobbies: </label>
+                  <div class="form-check form-check-inline mx-3">
+                     <input type="checkbox" class="form-check-input" name="Reading Books" value="reading books"/>
+                     <label class="font-weight-bold">Reading Books</label>
+                  </div>
+                  <div class="font-check form-check-inline mx-3">
+                     <input type="checkbox" class="form-check-input" name="Coding" value="Coding"/>
+                     <label class="font-weight-bold">Coding</label>
+                  </div>
+                  <div class="font-check form-check-inline mx-3">
+                     <input type="checkbox" class="form-check-input" name="cricket" value="cricket"/>
+                     <label class="font-weight-bold">Cricket</label>
+                  </div>
+                  <div class="font-check form-check-inline mx-3">
+                     <input type="checkbox" class="form-check-input" name="football" value="football"/>
+                     <label class="font-weight-bold">Football</label>
+                  </div>
+               </div>
+
+               <div class="col-12 p-3 my-2">
+                  <label for="address" class="font-weight-bold">Address:</label>
+                  <textarea row="10" column="10" class="form-control" name="address"></textarea>
+               </div>
+
+               <div class="col-4 p-3 my-2">
+                  <label for="pincode" class="font-weight-bold">Pincode:</label>
+                  <input type="text" class="form-control" name="pincode" id="pincode"/>
+               </div>
+               <div class="col-4 p-3 my-2">
+                  <label for="state" class="font-weight-bold">State:</label>
+                  <input type="text" class="form-control" name="state" id="state" readonly/>
+               </div>
+               <div class="col-4 p-3 my-2">
+                  <label for="country" class="font-weight-bold">Country:</label>
+                  <input type="text" class="form-control" name="country" id="country" readonly/>
+               </div>
+
+
+               <div class="col-12 p-3">
+                    <label for="university-name" class="font-weight-bold">University Name:</label>
+                    <select class="form-control form-select" name="university-name" id="university-name" placeholder="University Name">
+                     <option value="ms university baroda">MS University, Baroda</option>
+                     <option value="parul university">Parul University</option>
+                     <option value="nirma universtiy">Nirma University</option>
+                     <option value="rollwala computer department">RollWala Computer department</option>
+                    </select>
+               </div>
+               <div class="col-12 text-center p-3 my-2">
+                  <Button class="btn btn-primary btn-lg w-50 ">Submit</Button>
+               </div>
+            </div>
+         </div>
+      </div>
+   </body>
+</html>
