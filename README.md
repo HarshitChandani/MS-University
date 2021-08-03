@@ -1,6 +1,6 @@
 # MS University
 
-This repo consist of static desgin of home page of The Maharaja Sayajirao University of Baroda.
+This repo consist of a static design of home page of The Maharaja Sayajirao University of Baroda.
 
   The Maharaja Sayajirao University of Baroda (sincerely called as MSU) is a well known government unviersity in Vadodara,Gujarat(India).
   
